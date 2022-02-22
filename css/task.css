@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(224, 209, 187);
+    overflow: hidden;
+}
+
+.heading-one {
+    text-align: center;
+    color: rgb(255, 136, 0);
+    position:relative;
+    animation: headingOne;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes headingOne {
+    0% {left: -1000px;}
+    85% {left: 50px;}
+    100% {left: 0;}
+
+}
+
+.heading-two {
+    text-align: center;
+    color: rgb(112, 76, 47);
+    font-family: 'Amatic SC', cursive;
+    position:relative;
+    animation: headingTwo;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes headingTwo {
+    0% {right: -1000px;}
+    85% {right: 50px;}
+    100% {right: 0;}
+
+}
+
+.button {
+    text-align: center;
+
+}
+
+.btn {
+    border: 2px solid rgb(255, 136, 0);
+    color: rgb(255, 136, 0);
+    font-size: 1.1rem;
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    animation: aniBtn;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aniBtn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.image {
+    text-align: center;
+    padding-bottom: 1rem;
+    animation: img;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes img {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.ingredients {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.ingredients-table {
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.heading-three {
+    text-align: center;
+    color: rgb(112, 76, 47);
+}
+
+.instructions {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+.instructions ol {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.heading-four {
+    text-align: center;
+    color: rgb(255, 136, 0);
+    font-family: 'Source Code Pro', monospace;
+    padding-bottom: 3rem;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
